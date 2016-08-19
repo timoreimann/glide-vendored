@@ -1,5 +1,12 @@
 package main
 
-import _ "github.com/prometheus/client_model/go"
+import (
+	"fmt"
 
-func main() {}
+	model "github.com/prometheus/client_model/go"
+)
+
+func main() {
+	var mt model.MetricType
+	fmt.Println(mt)
+}
