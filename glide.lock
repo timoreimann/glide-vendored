@@ -1,0 +1,12 @@
+hash: 06b9c199107a14119501dc4d2321493b61f75df09614b45da96778077a0e2158
+updated: 2016-08-19T18:26:15.721346+02:00
+imports:
+- name: github.com/golang/protobuf
+  version: f592bd283e9ef86337a432eb50e592278c3d534d
+  subpackages:
+  - proto
+- name: github.com/prometheus/client_model
+  version: fa8ad6fec33561be4280a8f0514318c79d7f6cb6
+  subpackages:
+  - go
+testImports: []

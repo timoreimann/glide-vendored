@@ -1,0 +1,6 @@
+package: github.com/timoreimann/glide-vendored
+import:
+- package: github.com/prometheus/client_model
+  version: fa8ad6fec33561be4280a8f0514318c79d7f6cb6
+  subpackages:
+  - go
